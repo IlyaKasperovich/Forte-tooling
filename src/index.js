@@ -30,3 +30,5 @@ if (module.hot) {
     printMe();
   })
 }
+
+//webpack v4+ will minify the code by default in production mode
