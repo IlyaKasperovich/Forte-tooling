@@ -2,6 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
 
+let sanitizeHtml = require('sanitize-html');
+ 
+let dirty = 'some really tacky HTML';
+let clean = sanitizeHtml(dirty);
+
 function App() {
   return (
     <div className="App">
